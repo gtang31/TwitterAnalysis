@@ -10,3 +10,7 @@ tweet_sentiment.py
 happiest_state.py
 
 top_ten.py
+
+AFINN-111.txt
+
+output1.txt
