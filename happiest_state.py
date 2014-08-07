@@ -16,10 +16,6 @@ def tweet_sentiment(tweet_scores, tweet):
 
     return sentiment_score
 
-# prints the number of lines in a file
-def lines(fp):
-    print str(len(fp.readlines()))
-
 # Determine which state has the happiest tweets
 def happy_state(sent_file, tweet_file):
     states = {

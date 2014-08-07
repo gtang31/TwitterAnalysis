@@ -1,12 +1,9 @@
+'''
+This file calculates the frequency of each unique word occurence in each tweet
+'''
+
 import sys
 import json
-
-def hw():
-    print 'Hello, world!'
-
-# Prints the number of lines in a file
-def lines(fp):
-    print str(len(fp.readlines()))
 
 # Calculate sentiment for each tweet
 def tweet_frequency(tweet_file):        
